@@ -1,0 +1,2 @@
+# responsive
+Global page
