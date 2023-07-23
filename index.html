@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geologica&family=Poppins:ital@1&family=Rajdhani:wght@600&family=Rubik+Puddles&family=Source+Code+Pro:wght@600&display=swap"
+        rel="stylesheet">
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        .item {
+            padding: 30px;
+            width: 100%;
+            margin: 20px;
+            height: 280px;
+        }
+
+        .img1 {
+            background-image: url(1920x.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url(DSC_3370-1.webp);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img3 {
+            background-image: url(F90-BMW-M5-M5-Competition-facelift-LCI-33.webp);
+            background-size: cover;
+            background-position: center;
+        }
+
+
+
+
+        @media(max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+
+            }
+
+            .item {
+                height: 200px;
+            }
+        }
+
+        .header {
+            position: fixed;
+            background-image: url(BMW-Logo-No-Background.png);
+            margin-right: 40px;
+            background-position: center;
+            background-size: cover;
+            width: 100px;
+            padding: 40px;
+            top: 0;
+            color: black;
+            justify-content: space-around;
+            
+        }
+
+        .footer {
+            position: fixed;
+            background-color: black;
+            color: red;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            padding: 3px;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Geologica', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Rajdhani', sans-serif;
+            font-family: 'Rubik Puddles', cursive;
+            font-family: 'Source Code Pro', monospace;
+            padding: 30px;
+            text-align: center;
+        }
+        .container-header{
+            position: fixed;
+            background-color: black;
+            width: 100%;
+            top: 0;
+            padding: 50px;
+            text-align: center;
+            
+
+        }
+        .bmw{
+            position: fixed;
+            top: 0;
+            text-align: center;
+            color: red;
+            margin-left: 250px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BMW</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ullam culpa illum impedit reiciendis, maiores
+        nisi sint mollitia! Magnam laudantium ipsa quisquam aut et consequatur voluptates similique aliquam voluptas
+        quae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo fugiat provident nemo! Officia ipsa et
+        recusandae veritatis vero nihil numquam maiores sequi modi, enim hic aut, pariatur necessitatibus porro labore
+        mollitia ab velit, ad aliquid. Eaque ut culpa totam quos incidunt nesciunt consectetur repellendus, quasi, animi
+        autem doloribus vero officiis aliquid in dicta soluta veniam quia, provident at quidem. Sapiente. Lorem ipsum
+        dolor sit amet consectetur, adipisicing elit. Iusto odit corporis hic dignissimos animi facilis, neque
+        aspernatur! Nam repudiandae neque, earum commodi velit accusantium quidem sequi, nemo tenetur, doloremque minus.
+    </p>
+    <div class="container-header">
+        <div class="header"></div>
+        <div class="bmw"><h1>BMW</h1></div>
+    </div>
+    <div class="ziko"></div>
+    <div class="flex-container">
+        <div class="item img1"></div>
+        <div class="item img2"></div>
+        <div class="item img3"></div>
+
+        <div class="footer">
+            <h1>Design by Zakir</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
